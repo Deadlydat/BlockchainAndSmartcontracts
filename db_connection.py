@@ -64,6 +64,12 @@ cursor = cnxn.cursor()
 
 
 
+# cursor.execute("CREATE TABLE Statistics(statistics_id integer NOT NULL PRIMARY KEY, player_id integer, stakes integer, start_elf integer, yellow_cards integer, goals integer, assists integer)")
+# cursor.commit()
+
+
+
+
 cursor.execute("SELECT* FROM Soccer_Player;")
 row = cursor.fetchall()
 
