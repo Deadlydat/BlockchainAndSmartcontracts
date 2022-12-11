@@ -31,7 +31,7 @@ cursor = cnxn.cursor()
 
 # cursor.execute("CREATE TABLE Team(team_id integer NOT NULL PRIMARY KEY, name varchar(25), points integer)")
 # cursor.commit()
-
+#
 # count = cursor.execute("""
 # INSERT INTO Team (team_id, name, points) VALUES (?,?,?)""",1,"Würzburg kicker", 20000).rowcount
 # cnxn.commit()
